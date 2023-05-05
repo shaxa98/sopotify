@@ -161,7 +161,7 @@ body {
   border: 2px solid rgb(0, 255, 42);
   box-sizing: content-box;
   width: 100%;
-  height: 39%;
+  height: 35%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -185,16 +185,15 @@ body {
   border: 2px solid rgb(0, 255, 42);
   box-sizing: content-box;
   width: 100%;
-  height: 39%;
+  height: 35%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 .card {
   border: 2px solid rgb(255, 0, 0);
   box-sizing: content-box;
   width: 12%;
-  height: 70%;
+  height: 99%;
   display: flex;
   align-items: center;
   justify-content: center;
