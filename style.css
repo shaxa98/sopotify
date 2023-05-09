@@ -10,20 +10,15 @@ body {
 }
 
 .container-navbar {
-  border: 2px solid rgb(7, 2, 2);
-
   width: 100%;
   height: 100%;
 }
 .navbar {
-  border: 2px solid rgb(194, 253, 1);
-
   width: 100%;
   height: 10%;
   display: flex;
 }
 .navbar-1 {
-  border: 2px solid rgb(255, 0, 0);
   height: 95%;
   width: 20%;
   display: flex;
@@ -35,16 +30,12 @@ body {
   color: white;
 }
 .navbar-2 {
-  border: 2px solid rgb(255, 0, 0);
-
   height: 95%;
   width: 80%;
   display: flex;
   justify-content: space-between;
 }
 .navbar-2-1 {
-  border: 2px solid rgb(17, 0, 255);
-
   width: 10%;
   height: 100%;
   display: flex;
@@ -52,13 +43,10 @@ body {
   align-items: center;
 }
 .navbar-2-1 div {
-  border: 2px solid rgb(255, 0, 0);
-
   width: 45%;
   height: 70%;
 }
 .navbar-2-2 {
-  border: 2px solid rgb(17, 0, 255);
   width: 30%;
   height: 100%;
   display: flex;
