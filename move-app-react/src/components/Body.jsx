@@ -1,3 +1,5 @@
+import Cards from "./cards";
+
 const BodyComponents = () => {
   return (
     <>
@@ -124,7 +126,7 @@ const BodyComponents = () => {
           </div>
         </div>
         <div className="body-2">
-          <div className="body-2-1">
+          <div className="body-2-1 d-flex">
             <div>
               <h1>Focus</h1>
             </div>
@@ -133,85 +135,12 @@ const BodyComponents = () => {
             </div>
           </div>
           <div className="body-2-2">
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
           </div>
+
           <div className="body-2-3">
             <div>
               <h1>Sopotify Playlist</h1>
@@ -220,85 +149,11 @@ const BodyComponents = () => {
               <h2>Show all</h2>
             </div>
           </div>
-          <div className="body-2-4">
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="img">
-                <img src="./03.png" width="100%" height="100%" alt="" />
-              </div>
-              <div className="about-move">
-                <div className="card-title">
-                  <h1>Peaceful Piano</h1>
-                </div>
-                <div className="card-commit">
-                  <p>Relex end induluge with beuatiful piano pieces</p>
-                </div>
-              </div>
-            </div>
+          <div className="body-2-2">
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
           </div>
         </div>
       </div>
